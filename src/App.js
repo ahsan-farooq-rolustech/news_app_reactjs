@@ -9,7 +9,10 @@ function App()
   return (
     <div>
       <NavBar />
-      <News/>
+
+      <div className='container'>
+        <News />
+      </div>
     </div>
   );
 }
